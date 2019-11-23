@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+.logo{
+	float: left;
+	width: 13%;
+	height: 80%;
+  margin: 5px;
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.header{
+	width: 95%;
+	height: 50%;
+	border: solid;
+	border-radius: 5px;
+	border-color: #333;
+	margin: 5px 30px 10px 20px;
+}
+
+.top-nav{
+	overflow: hidden;
+  background-color:white;
+  height: 6.9%;
+  border-bottom: 1px solid grey;
+}
+
+.nav{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+	font-size: 17px;
+}
+
+.nav:hover{
+  color: cornflowerblue;
+	transition: 0.5s;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content{
+  padding-top: 60px;
+}
+
+.search-box {
+  margin-right: 10px;
+  float: right;
+  transform: translate(0%, 7%);
+  background: white;
+  border-radius: 40px;
+  height: 20px;
+  padding: 10px 16px;
+}
+
+.search-btn {
+  color: #e74c3c;
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.search-box:hover > .search-text {
+  width: 240px;
+  transition: 0.8s;
+}
+
+.search-box:hover > .search-btn {
+  background: white;
+}
+
+.search-text {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
+}
+
+.main{
+  float: left;
+	width: 99%;
+	margin: 5px 5px 5px 5px;
+}
+
+.news-box{
+	float: left;
+  width: 70%;
+  margin: 5px 5px 5px 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.news-box a{
+  text-decoration: none;
+  color: black;
+}
+
+.news{
+	width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  border: 2px solid;
+  border-color: #333;
+  cursor: pointer;
+	transition: 0.5s;
+}
+
+.news:hover{
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  /*margin-left: 5px;*/
+  transition: 0.5s;
+}
+
+.archive-box{
+  float: left;
+  border-radius: 10px;
+  width: 27.5%;
+	margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: 2px solid;
+  border-color: #333;
+}

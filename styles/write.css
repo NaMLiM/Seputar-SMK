@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav{
+	overflow: hidden;
+  background-color:white;
+  height: 6.9%;
+  border-bottom: 1px solid grey;
+}
+
+.top-nav img{
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 2%;
+  margin-top: 15px;
+}
+
+.top-nav span{
+  line-height: 50px;
+}
+
+.batal{
+  height: 100%;
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  border-right: 1px solid grey;
+}
+
+.batal:hover{
+  color: cornflowerblue;
+	transition: 0.5s;
+}
+
+.setting-box {
+  margin: 5px;
+  float: right;
+  transform: translate(0%, 0%);
+  background: white;
+  border-radius: 40px;
+  height: 100%;
+  padding: 5px;
+}
+
+.setting-btn {
+  color: #e74c3c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.setting-box:hover{
+  background-color: cornflowerblue;
+  transition: 0.5s;
+}
+
+.setting-box:hover>.setting-btn{
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.publish{
+  height: 100%;
+  margin: 5px;
+  padding: 10px;
+  float: right;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+  transition: 0.5s;
+}
+
+.publish:hover{
+  cursor: pointer;
+  background-color: cornflowerblue;
+  transition: 0.5s;
+}
+
+.write{
+  margin-top: 20px;
+}
+
+.judul{
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  width: 98%;
+  height: 80px;
+  font-size: 30px;
+}
