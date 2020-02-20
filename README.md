@@ -1,5 +1,5 @@
 # Seputar SMK
-a news website for my school project
+a news website for my high school project
 
 TODO:
 - Change the WYSIWYG news editor to either TinyMCE or CKEditor
